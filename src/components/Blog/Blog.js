@@ -1,6 +1,9 @@
+import { useEffect, useState } from "react";
+
 import Post from "./Post";
 import CustomPagination from "../Pagination/Pagination";
-import { useEffect, useState } from "react";
+
+import classes from './Blog.module.scss';
 
 const POSTS_PER_PAGE = 3;
 
@@ -24,7 +27,7 @@ const Blog = ({ posts, type }) => {
       {filteredPosts.map((post, index) => {
         return <Post key={index} post={post} />;
       })}
-      <div style={{ paddingTop: "24px" }}>
+      <div className={classes.Pagination}>
         <CustomPagination
           defaultCurrent={currentPage}
           total={posts.length}
