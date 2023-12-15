@@ -24,7 +24,7 @@ const PageHeader = () => {
         >
           <WechatOutlined />
         </div>
-        <div style={{padding: '8px'}}>
+        <div style={{padding: '8px', textAlign: 'left'}}>
           <h3>All Blog Posts</h3>
           <p>Qatar Development Bank</p>
         </div>
