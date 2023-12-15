@@ -39,6 +39,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 4. API call for fetching posts
 5. API call for DELETING post
 6. API call for updating a post
+7. Pagination for posts
 
 
 ## Note
