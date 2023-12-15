@@ -1,0 +1,14 @@
+.primaryButton {
+  border-color: #4096ff;
+  color: #4096ff;
+}
+
+.postHeading {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+
+  &:first-letter {
+    text-transform: capitalize;
+  }
+}
