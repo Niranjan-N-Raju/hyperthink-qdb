@@ -1,9 +1,30 @@
-.postHeading {
+.PostWrapper {
+  display: flex;
+  color: #000;
+
+  .Content {
+    padding: 0 24px;
+    width: 100%;
+  }
+
+  .TextContent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .PostHeading {
     font-size: 18px;
     font-weight: 600;
     text-align: left;
-  
+
     &:first-letter {
       text-transform: capitalize;
     }
   }
+
+  .Body {
+    text-align: left;
+    padding-top: 8px;
+  }
+}
