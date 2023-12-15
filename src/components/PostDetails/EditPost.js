@@ -20,7 +20,7 @@ const EditPost = () => {
       .then((data) => data.json())
       .then((result) => {
         setLoading(false);
-        navigate("/blogs");
+        navigate("/post-details/" + state?.postDetails?.id);
       });
   };
 
